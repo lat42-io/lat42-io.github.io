@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header, footer, section {
+  padding: 1.5rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  background: #fafafa;
+  padding: 3rem 0;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero .cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.services .service-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  flex: 1 1 200px;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.process ol {
+  margin-left: 1.5rem;
+}
+
+.why-us ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 1rem 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.testimonials blockquote:before {
+  content: "“";
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.contact form button {
+  padding: 0.75rem;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+title: "Lat42"
+description: "Your AI partner"
+# If you're deploying on GitHub Pages, you might need:
+# theme: minima
+# If you have a custom domain or are hosting elsewhere:
+url: "https://lat42.io"
+baseurl: ""  # change if hosting in a subdirectory
